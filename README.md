@@ -9,6 +9,8 @@
 
 ## HTML Template
 
+View how the template looks at https://omaryasser.github.io/html-resume/resume.html.
+
 1. **Edit the Template**: Open the HTML template file and replace the information with your own details.
 
 2. **Preview the Changes**: Use a web browser to open the edited HTML file and check that everything looks correct.
