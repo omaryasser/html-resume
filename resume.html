@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Omar Morsi | Senior Software Engineer</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: 'Times New Roman';
+            font-size: 14px;
+        }
+
+        body {
+            margin-top: 8px;
+            margin-left: 8px;
+            margin-right: 8px;
+            color: #333333;
+        }
+
+        header {
+            font-size: large;
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+            margin-top: 0;
+            height: 50px;
+        }
+
+        header>* {
+            width: 33.333%;
+        }
+
+        .contact {
+            font-size: medium;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        a {
+            color: DarkBlue;
+            text-decoration: underline;
+        }
+
+        section {
+            margin-top: 16px;
+        }
+
+        section>h2 {
+            font-weight: lighter;
+            font-size: large;
+        }
+
+        section>h2::first-letter {
+            font-size: x-large;
+        }
+
+        h2 {
+            font-size: medium;
+        }
+
+        h3 {
+            font-size: medium;
+        }
+
+        .job-header {
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            margin-top: 16px;
+            margin-bottom: 5px;
+            align-items: center;
+        }
+
+        .job-header:first-of-type {
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            margin-bottom: 5px;
+            margin-top: 8px;
+            align-items: center;
+        }
+
+
+        .job-company {
+            text-wrap: nowrap;
+            text-align: start;
+            font-weight: normal;
+            font-size: large;
+        }
+
+        .job-title {
+            text-wrap: nowrap;
+            text-align: center;
+            font-size: bold;
+            /* color: #6d6d6d; */
+        }
+
+        .job-header>* {
+            width: 33.333%;
+        }
+
+        .job-metadata {
+            width: 33.333%;
+            font-weight: lighter;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .job-metadata-place {
+            font-size: small;
+        }
+
+        .job-metadata-date {
+            font-size: small;
+        }
+
+
+        .job-header-first {
+            margin-top: 0px;
+        }
+
+        section>hr {
+            margin-top: 1px;
+            margin-bottom: 3px;
+        }
+
+
+        .job-metadata h3 {
+            font-weight: lighter;
+            text-wrap: nowrap;
+        }
+
+        .job-metadata h3:first-child {
+            align-self: center;
+        }
+
+        .google-history {
+            position: relative;
+            margin-left: 10px;
+            margin-top: 0;
+            margin-bottom: 0;
+            list-style: disc;
+            list-style-position: initial;
+        }
+
+
+        .google-item {
+            margin-left: 10px;
+        }
+
+        .google-item-header {
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            margin-left: 5px;
+        }
+
+        .google-item-header>h2 {
+            font-weight: bold;
+        }
+
+
+        .google-item-header-job {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .google-item-header-job-team {
+            margin-bottom: 5px;
+            white-space: nowrap;
+            font-weight: normal;
+            color: #666666;
+        }
+
+        .google-item-header-job-title {
+            font-weight: bold;
+        }
+
+        .job-content {
+            margin-left: 20px;
+            list-style: circle;
+            list-style-position: outside;
+        }
+
+        ul>li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="contact" style="text-align: left;">
+            <a href="tel:+44444444444">+44444444444</a>
+            <p>Milton Keynes, UK</p>
+        </div>
+        <div style="display: flex; flex-direction: column; justify-content: start; align-items: center;">
+            <span style="font-size:xx-large;font-weight: bold;text-align: center;"> Omar Morsi</span>
+            <span style="font-size:medium;font-weight:lighter;text-align: center;">Senior Software
+                Engineer</span>
+        </div>
+        <div class="contact" style="text-align: end;align-self:flex-end;">
+            <a href="mailto:email@email.com">email@email.com</a>
+            <div>
+                <a href="https://linkedin.com/in/oyaraouf">LinkedIn</a> -
+                <a href="https://github.com/omaryasser">Github</a> -
+                <a href="https://codeforces.com/profile/Omar_Morsi">Codeforces</a>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <h2>Experience</h2>
+        <hr>
+
+        <div class="job-header">
+            <h2 class="job-company">Company, Team</h2>
+            <h2 class="job-title">Role</h2>
+            <div class="job-metadata">
+                <h3 class="job-metadata-place">London, UK</h3>
+                <h3 class="job-metadata-date">(06/2022 - Present)</h3>
+            </div>
+        </div>
+        <ul class="job-content">
+            <li>
+                Architected a system that <b>automatically troubleshoots XX% of Google incidents</b>, saving
+                more
+                than X
+                engineering hours daily across the company. Led
+                a cross-functional team of X engineers through the development process. Used Golang and SQL.
+            </li>
+            <li>
+                Designed and implemented a system that <b>structures, quantifies, correlates, and visualizes
+                    errors</b>
+                across GCP Serverless control plane binaries, streamlining incident response and reducing
+                cognitive strain. Used Kotlin, Java, and SQL.
+            </li>
+            <li>
+                Led a project to <b>migrate workloads handling millions of queries per second</b> from
+                high-cost, purpose-specific machines to more
+                cost-effective alternatives.
+            </li>
+            <li>
+                <b>Mentored an intern</b> for 3 months. Directed the technical development and facilitated
+                a successful project delivery.
+            </li>
+            <li>Got granted <b>"Go Readability"</b> for proficient Golang coding and active code reviews across
+                over 400 change lists.
+            <li>Handled over 50 incidents as part of the incident response team, which required in-depth
+                knowledge
+                of <b>App Engine, Cloud Functions, Cloud Run</b> (Kubernetes-like managed IaaS), VPCs, and their
+                dependencies.</li>
+            </li>
+            <li>Got <b>promoted</b> to Senior SWE/SRE in April 2024.</li>
+            <li><b>Skills Summary:</b> Java, Golang, Kotlin, SQL, GCP, App Engine, Cloud Run, Cloud Functions,
+                Kubernetes, CI/CD, DevOps, VPC, Project Management, Incident Response, E2E Testing, Monitoring,
+                Alerting.
+            </li>
+        </ul>
+        <div class="job-header">
+            <h2 class="job-company">Google, Corporate Engineering</h2>
+            <h2 class="job-title">Software Engineer III, SRE</h2>
+            <div class="job-metadata">
+                <h3 class="job-metadata-place">Munich, Germany</h3>
+                <h3 class="job-metadata-date">(01/2022 - 06/2022)</h3>
+            </div>
+        </div>
+        <ul class="job-content">
+            <li>
+                Designed and built <b>an internal probing framework</b> for Corporate Engineering teams. This
+                framework <b>saves engineers 20 workdays</b> for each new prober to be developed. Used
+                Java.
+            </li>
+            <li>
+                Authored <b>best practices</b> guide for writing non-standard probers, specifically those not
+                supported by the company’s standard tooling, now adopted company-wide.
+            </li>
+            <li>Got granted <b>"Java Readability"</b> for proficient Java coding and active code reviews.
+            </li>
+            <li><b>Skills Summary:</b> Java, Golang, Probing, Monitoring, DevOps, Incident Response.</li>
+        </ul>
+
+        <div class="job-header">
+            <h2 class="job-company">Google, ChromeOS Networking</h2>
+            <h2 class="job-title">Software Engineer III</h2>
+            <div class="job-metadata">
+                <h3 class="job-metadata-place">Munich, Germany</h3>
+                <h3 class="job-metadata-date">(10/2019 - 01/2022)</h3>
+            </div>
+        </div>
+        <ul class="job-content">
+            <li>Designed and implemented a <b>Windows connector</b> between on-premise Certificate Authorities
+                and
+                Google Cloud for Enterprises, supporting its continuous building, E2E testing, and deployment. <a
+                    href="https://support.google.com/chrome/a/answer/11053129?hl=en">(Public Documentation)</a>.
+
+            </li>
+            <li>Designed and implemented an API that allows Chrome OS extensions to perform <b>Elliptic Curve
+                    Cryptography support</b> through Chrome OS's Trusted Platform Module (TPM) (<a
+                    href="https://chromium-review.googlesource.com/q/owner:omorsi@google.com">Link</a>). </li>
+            <li>Migrated key permissions that were saved in Chrome profile preferences to a more secure
+                TPM-backed ChromeOS storage. The migration was <b>successfully executed for millions of
+                    users</b>.
+            </li>
+            <li>
+                Designed and implemented various policies that enable enterprise admins to <b>control
+                    networking on
+                    ChromeOS devices</b> (e.g. Controling VPN Disablement, Allowing Subject Alternative Name
+                matching
+                for 802.1X networks).
+            </li>
+            <li>Saved the team a year of development time by analyzing and communicating with my manager, team lead, and
+                product manager to deprioritize two projects by <b>documenting security, maintainability, and market fit
+                    concerns</b>, ensuring alignment with upcoming features.</li>
+            <li><b>Got promoted</b> from SWE II to SWE III in April 2021.</li>
+            <li><b>Skills Summary:</b> C++, Java, Golang, SQL, Javascript, Python, Cryptography, Networking,
+                Certificates, Windows Programming, VPN, E2E Testing, Project Management.</li>
+        </ul>
+
+        <div class="job-header">
+            <h2 class="job-company">German University in Cairo</h2>
+            <h2 class="job-title">Lecturer</h2>
+            <div class="job-metadata">
+                <h3 class="job-metadata-place">Cairo, Egypt</h3>
+                <h3 class="job-metadata-date">(01/2019 – 06/2019)</h3>
+            </div>
+        </div>
+        <ul style="list-style-position: outside; list-style:disc; margin-left: 20px;">
+            Developed course materials, lectured, and conducted assessments for the <b>"Advanced Data Structures and
+                Algorithms (CSEN 1038)"</b> course, a Pre-Masters Elective offered to 25+ Computer Science Engineering
+            students
+            in their 10th semester. Examples of lecture topics included Segment Trees, Strongly Connected Components in
+            Graphs, Tries, Aho-Corasick, and Heavy-light Decomposition of Trees.
+        </ul>
+
+
+        <div class="job-header">
+            <h2 class="job-company">Ionite</h2>
+            <h2 class="job-title">Software Development Intern</h2>
+            <div class="job-metadata">
+                <h3 class="job-metadata-place">Cairo, Egypt</h3>
+                <h3 class="job-metadata-date">(01/2019 – 06/2019)</h3>
+            </div>
+        </div>
+        <p style="margin-left: 20px;">Implemented hotels booking features in a SaaS solution for Egyptian travel
+            agencies. Used <b>Ruby on Rails and Vue.js</b>.
+        </p>
+    </section>
+
+
+
+
+    <section>
+        <h2>Activities</h2>
+        <hr>
+        <ul>
+            <ul style="margin-left: 20px; list-style:disc">
+
+                <li><b>ACM ICPC World Finalist 2x:</b> International Collegiate Programming Contest (ICPC) World
+                    Finalist in
+                    2018 & 2019.
+                </li>
+                <li><b>ACPC Regional Medalist 2x:</b> Arab Collegiate Programming Contest (ACPC) Medalist in 2017
+                    &
+                    2018.
+                </li>
+                <li><b>ECPC Champion:</b> Ranked 1st in Egyptian Collegiate Programming Contest (ECPC) 2017.</li>
+                <li><b>Codeforces Master:</b> A well-known website that hosts programming contests. <a
+                        href="https://codeforces.com/profile/Omar_Morsi">Profile</a></li>
+                <li><b>Codeforces Round Winner:</b> Ranked 1st among 5300+ participants. <a
+                        href="https://codeforces.com/contest/918/standings/participant/15845543##p15845543">Link</a>
+                </li>
+                <li><b>University Coach:</b> Mentored GUC students to improve their problem solving and algorithmic
+                    skills.</li>
+                <li><b>ECPC Problem Setter:</b> Problem Setter in Egyptian Collegiate Programming Contest (ECPC) 2019.
+                </li>
+                <li><b>Junior Teaching Assistant:</b> Assisted in teaching two introductory Computer Science courses in
+                    the
+                    GUC.</li>
+                <li><b>Selected Courses & Certificates:</b> Machine Learning Engineering for Production (MLOps) from
+                    DeepLearning.AI <a
+                        href="https://www.coursera.org/account/accomplishments/specialization/UAD4CKQQH47X">(Certificate)</a>.
+                    Front-End Developement by Meta <a
+                        href="https://www.coursera.org/account/accomplishments/professional-cert/BBSASC96G3LF">(Certificate)</a>.
+                    Architecture
+                    of Massively Scalable Apps, AI, NLP, Relational Databases, Concepts of Constraint, Functional, and
+                    Imperative Programming Languages, and OS from the German university in Cairo.
+                </li>
+            </ul>
+        </ul>
+    </section>
+
+
+    <section>
+        <h2>Education</h2>
+        <hr>
+        <div class="job-header job-header-first">
+            <h2 class="job-company">German Research Centre for Artificial Intelligence (DFKI)</h2>
+            <div></div>
+            <div class="job-metadata">
+                <h3 class="job-metadata-place">Kaiserslautern, Germany</h3>
+                <h3 class="job-metadata-date">(04/2018 – 09/2018)</h3>
+            </div>
+        </div>
+        <p style="margin-left: 20px; margin-bottom: 10px;">Bachelor Project and Thesis (Grade: A+). Compared different
+            techniques for optical character
+            recognition (OCR) post-error correction using a neural machine translation (NMT) approach.</p>
+
+        <div class="job-header job-header-first">
+            <h2 class="job-company">German University in Cairo</h2>
+            <div></div>
+            <div class="job-metadata">
+                <h3 class="job-metadata-place">Cairo, Egypt</h3>
+                <h3 class="job-metadata-date">(04/2014 – 06/2019)</h3>
+            </div>
+        </div>
+        <p style="margin-left: 20px;">Bachelor’s degree in Computer Science Engineering with Honors.</p>
+    </section>
+
+
+    <section>
+        <h2>Personal Projects</h2>
+        <hr>
+        <ul>
+            <ul style="margin-left: 20px; list-style:disc">
+                <li>
+                    <b>Good Deeds Gamification App</b>: A mobile application designed for Muslims to encourage
+                    engagement in good deeds
+                    through a community-based approach. Users can create challenges, share them with friends, and track
+                    their progress in a fun and supportive environment. Used
+                    Spring Boot, Flutter, and MongoDB <a
+                        href="https://play.google.com/store/apps/details?id=com.tanafaso.azkar">(App</a>, <a
+                        href="https://github.com/tanafaso/tanafaso-frontend">Frontend</a>, <a
+                        href="https://github.com/tanafaso/tanafaso-backend">Backend)</a>.
+                </li>
+                <li>
+                    <b>Disability Game Simulator</b>: A VR application built using Unity for simulating disabilities in
+                    the sense of a game. We were a
+                    team of four which won 1st place in a 3-day hackathon hosted by the University of Duisburg-Essen.
+                    The
+                    player starts as a waiter
+                    delivering orders to the corresponding tables. Then the waiter loses their right hand and they
+                    should figure out how to deliver
+                    the orders in a faster way. Then the player becomes a wheelchair waiter while still trying to
+                    achieve the highest score <a
+                        href="https://www.google.com/url?q=https://github.com/omaryasser/Wheelchair-Waiter">(Code)</a>.
+                </li>
+                <li>
+                    <b>Competitive Programming Repository</b>: Features an implementation to advanced data structures
+                    and algorithms along with solutions to over 3,000 algorithmic challenge
+                    <a href="https://github.com/omaryasser/Competitive-Programming">(Repository)</a>.
+                </li>
+            </ul>
+        </ul>
+    </section>
+    <section>
+        <h2>Programming Skills</h2>
+        <hr>
+        <ul style="margin-left: 20px; list-style:disc">
+            <li><b>Languages:</b> Main (Java, Go, C++). Others (Javascript, Typescript, Kotlin, Ruby, Python, Prolog).
+            </li>
+            <li><b>Databases:</b> SQL, Postgres, Spanner, NoSQL, MongoDB, Atlas.</li>
+            <li><b>Methodologies:</b> Cloud, Serverless, CI/CD, OOP, MEAN, MVC, REST.</li>
+            <li><b>Tools & Frameworks:</b> GCP, Cloud Run, App Engine, Cloud Functions, Kubernetes, Docker, Git, RPC,
+                Linux, FastAPI, Spring, Next.js, React.js, Android, Unity, Rails.</li>
+        </ul>
+    </section>
+
+
+</body>
+
+</html>
