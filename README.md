@@ -1,15 +1,14 @@
 # HTML Resume & Advices
 
+View how the template looks at https://omaryasser.github.io/html-resume/resume.html.
 
 ## Table of contents
 
-* [The Template](#the-template)
+* [Usage](#usage)
 * [Resume Advices](#resume-advices)
 * [Contributing](#contributing)
 
-## The Template
-
-View how the template looks at https://omaryasser.github.io/html-resume/resume.html.
+## Usage
 
 1. **Edit the Template**: Open the HTML template file and replace the information with your own details.
 
