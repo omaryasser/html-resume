@@ -3,11 +3,11 @@
 
 ## Table of contents
 
-* [HTML Template](#html-template)
+* [The Template](#the-template)
 * [Resume Advices](#resume-advices)
 * [Contributing](#contributing)
 
-## HTML Template
+## The Template
 
 View how the template looks at https://omaryasser.github.io/html-resume/resume.html.
 
