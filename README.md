@@ -24,7 +24,7 @@ This will give you a polished PDF version of the template with your custom infor
 
 
 ## Resume Advices
-*Note: I am not an expert in building resumes, but I've seen a lot of them. I have reviewed many resumes and found myself giving some common comments and tips that I'll share in this post.
+*Note: I am not an expert in building resumes, but I've seen a lot of them. I have reviewed many resumes and found myself giving some common comments and tips that I'll share in this post.*
 
 ### 1. Use Simple Style
 
