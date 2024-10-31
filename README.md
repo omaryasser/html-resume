@@ -88,4 +88,5 @@ We welcome contributions! To get started:
      ```bash
      git push origin your-branch-name
 6. Open a Pull Request: Go to the original repository and open a pull request with a clear description of your changes.
+
 Thank you for contributing! 🎉
